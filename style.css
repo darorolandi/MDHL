@@ -1,0 +1,119 @@
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding-left: 20px;
+  font-size: 40px;
+  background-color: black;
+  color: aliceblue;
+}
+header {
+  width: 100%;
+  
+  
+height: 400px;
+  background-size: cover;
+  background-position: center;
+  
+  background-position-y: 0px;
+  background-color: azure;
+}
+nav {
+  position: absolute;
+  top: 25px;
+  right: -2px;
+}
+
+a {
+  color: antiquewhite;
+  background-color: yellowgreen;
+  font-family: serif;
+  margin-right: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+  color: aliceblue;
+  width: 100%;
+  
+}
+
+
+.logo {
+  box-shadow: 10px 10px 10px 10px rgb(241, 230, 230);
+  width: 120px;
+  height: 120px;
+}
+
+
+  
+
+
+
+main {
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  min-height: 80vh;
+}
+header div {
+  display: flex;
+  width: 100%;
+  
+  height: 300px;;
+}
+.imagenes {
+  width: 100%;
+  height: 300px
+}
+footer{
+    background-color: black;
+  color: aliceblue;
+    width: 100%;
+}
+.General{
+    display: flex;
+    
+    margin-bottom: 276px;
+    width: 100%;
+}
+.articulos{
+    width: 700px;
+
+
+}
+.divlogo{
+    width: 150px;
+
+}
+body{
+    overflow-x: hidden;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+    
+
+
+.li{
+    list-style:lower-alpha ;
+}
+section{
+    margin-bottom: 50px;
+}
+p{
+    margin-bottom: 10px;
+}
+.rules{
+    margin-left: 30px;
+}
