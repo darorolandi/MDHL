@@ -1,7 +1,8 @@
+
 * {
     
   margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 h1 {
@@ -23,13 +24,14 @@ height: 400px;
 }
 nav {
   position: absolute;
-  top: 25px;
+  top: 16px;
   right: -2px;
+
 }
 
 a {
-  color: antiquewhite;
-  background-color: yellowgreen;
+  color: #df8309;
+  background-color: rgb(14, 51, 51);
   font-family: serif;
   margin-right: 10px;
 }
@@ -56,17 +58,22 @@ h2 {
 
 main {
   width: 100%;
- 
+  background-image: linear-gradient(
+    to bottom,
+    rgba(252, 252, 249, 0.733),
+    rgba(173, 173, 187, 0.411)
+  ),
+  url("./imagenes/hockey3.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
+  
   min-height: 80vh;
 }
 header div {
   display: flex;
   width: 100%;
-  
+  flex-wrap: wrap;
   height: 300px;;
 }
 .imagenes {
@@ -100,6 +107,7 @@ table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+    font-weight: bolder;
 }
 
     
@@ -111,9 +119,95 @@ table,th,td{
 section{
     margin-bottom: 50px;
 }
-p{
-    margin-bottom: 10px;
-}
+
 .rules{
-    margin-left: 30px;
+  margin-left: 0px;
 }
+nav a{
+  text-decoration: none;
+  border: none;
+  padding: 10px 15px;
+  color: #df8309;
+  margin: 10px; 
+  border-radius: 10px
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 90%;
+font-weight: bolder;
+
+
+
+}
+fieldset{
+  width: 100%;
+
+}
+.divName{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.divName label{
+  margin:right 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divcity label{
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divGrade{
+  margin:right 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.maps{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.divSchool{
+  
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divSchool2{
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.fieldsetSchool{
+  display: flex;
+}
+
+
+@media screen and (width<= 425px) {
+  nav{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 22px;
+    
+    top: 16px;
+    right: 66px; 
+     
+  }
+  h1{
+    
+    background-color: black;
+    color: aliceblue;
+ }
+}
+
